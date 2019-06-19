@@ -1,0 +1,9 @@
+---
+layout: post
+title:      "CLI gem project"
+date:       2019-06-19 02:48:58 +0000
+permalink:  cli_gem_project
+---
+
+
+When I approached this project I was intimidated a little, but as I watched many videos and did my own research it became apparent that it was doable. I decided to go with scraping craigslist. I wanted to do craigslist because a classmate and I from back in college were talking about it.  My project main theme was to get apple products that are new, so my gem would scrape craigslist html and collect all the items that are new.  This is a challenge because craigslist has new and used all in the html.  To remedy that, I decided to include a price above $150 as a recomendation to the user.  My project has four main models: a scrape model, an item model, a city model, and a CLI model that puts everthing together.  I used to test using selenium so looking at the html was not that hard, but at times it was challenging.  So I did a lot of debugging using puts and pry.  Once the scrape model was finished, the rest fell into place.  The most challenging aspect after it was having the item and model relate to each other.  When I spoke to my Flatiron coach, she gave me the idea of having a belongs to, and has many relationship between the two models which it was really easy to implement.  So an item belongs to a city in the craigslist website, and a city has many items.  Once I wrote the code and tested it, the CLI fell into place.  The CLI was a bit hard because I have a main menu, and a submenu.  So two loops were necessary.  I practiced a lot with hashes, multidimensional arrays, one dimensional arrays, object oriented programming, using enumerators like collect and each.  I also practiced building the gem withoug namespacing becasue I use the require_all gem.  Because of the require_all gem I also got to understand better require, and require_relative.  
