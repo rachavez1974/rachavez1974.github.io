@@ -1,11 +1,11 @@
 # Site settings
-author: Ramon A Chavez
-title: 
+author: Ramon Chavez
+title: How much fun I had building my own Ruby gem.
 header-img: img/home-bg.png
 email: rachavez1974@gmail.com
-copyright_name: Ramon A Chavez
+copyright_name: Ramon Chavez
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Ruby is awesome.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  rachavez1974
